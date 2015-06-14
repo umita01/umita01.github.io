@@ -1,0 +1,93 @@
+body {
+	margin: 0;
+	background-image: url(../images/background2.jpg); /*This is how I change the background*/
+	background-size: cover;
+	font-family: 'Cabin Condensed', sans-serif;
+}
+
+.main {
+	width: 60%;  
+	margin: 0 auto;   /*This centers the image*/
+	padding: 40px;
+	background: rgba(255, 255, 255, 0.7); /*specifies the background colour in RGB*/
+}
+
+form {
+	padding: 50px;
+}
+
+.column {
+	width: 50%;
+	float: left;  /*floats columns in a row*/
+	padding: 40px;
+	box-sizing: border-box;
+}
+
+h3:after { 
+	content: ' +';
+}
+
+.open:after{}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+
+}
+h2 {
+	text-align: center;
+	font-size: 30px;
+	letter-spacing: 5px;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+
+h3 {
+	text-align: left;
+	margin-left: 65px;
+}
+
+h4 {
+	text-align: left;
+	font-weight: normal;
+}
+
+img {
+	border: 10px dotted black; /* This puts a border around the image */
+	border-radius: 0% 0% 0% 0%; /* This changes the shape of the border */
+	margin: 0 auto; /*This is how you get the image to the center of the page */
+	display: block; /* You have to have this element in order to get it to the middle*/
+}
+
+p,
+ul,
+ol {
+	line-height:1.4;
+	list-style: bullets;
+	padding-left: 20px;
+	font-weight: bold;
+}
+
+a {
+	text-decoration:none;
+	color: black;
+	font-weight: bolder;
+}
+
+ul li {    						/*Find ul elements; find lis*/
+	display: inline-block;  	/*displays inline*/
+	padding-left: 80px;
+}
+
+
+iframe { 
+
+	margin: 0 auto; /*This is how you get the image to the center of the page */
+	display: block; /* You have to have this element in order to get it to the middle*/
+	}
+
+
+a:hover,
+a:focus {
+		text-decoration: underline;
+		}
